@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HospitalSanJose.TerceraMain32">
+   
+        <StackLayout>
+
+            <Label x:Name="labelTextoNombreIntroducido" 
+                       Text="El nombre introducido es: " 
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Center"></Label>
+
+            <Label x:Name="labelTextoResultadoNombreIntroducido" 
+                       Text="Aquí va el nombre introducido en la otra actividad: " 
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Center"></Label>
+
+            <!--Buscar el equivalente de ImageView en Xamarin-->
+
+            <Label x:Name="labelIntroducirSexo" 
+                       Text="Intorduzca su sexo: " 
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Center"></Label>
+         
+            <Picker x:Name="pickerSexo">
+                <Picker.Items>
+                    <x:String>Hombre</x:String>
+                    <x:String>Mujer</x:String>
+                </Picker.Items>
+            </Picker>
+                    
+            <Label x:Name="especialidadDelPaciente" 
+                       Text="A que especialidad desea asistir" 
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Center"></Label>
+
+            <Picker x:Name="pickerEspecialidad">
+                <Picker.Items>
+                    <x:String>Cardilogia</x:String>
+                    <x:String>Neurocirugia</x:String>
+                    <x:String>Cirugia</x:String>
+                    <x:String>Radiologia</x:String>
+                    <x:String>Traumologia</x:String>
+                    <x:String>Oftamologia</x:String>
+            </Picker.Items>
+            </Picker>
+
+            <Button x:Name="irAOtraPagina"
+                          Text="Siguiente"
+                          BackgroundColor="LightSlateGray"
+                          VerticalOptions="Center"
+                          HorizontalOptions="Center"></Button>
+        </StackLayout>
+</ContentPage>

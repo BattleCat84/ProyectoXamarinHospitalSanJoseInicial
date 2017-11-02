@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HospitalSanJose"
+             x:Class="HospitalSanJose.MainPage"
+             Title="Página Principal">
+
+    <StackLayout Orientation="Vertical">
+
+        <Image Source="logohospitalsanjose.png" 
+                       x:Name="imageLogoHospitalSanJose"
+                       VerticalOptions="Center"
+                       HeightRequest="300"  
+                       WidthRequest="300"></Image>
+
+        <Label x:Name="labelTexto" 
+               Text="Bienvenido al Hospital San Jose" 
+               VerticalOptions="Center" 
+               HorizontalOptions="Center"></Label> 
+ 
+        <Button x:Name="IrAOtraPagina"
+                BackgroundColor="LightSlateGray"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Text="Empezar"></Button>
+
+    </StackLayout>
+
+</ContentPage>

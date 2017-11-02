@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HospitalSanJose.CuartaMain4">
+
+    <StackLayout Orientation="Vertical">
+
+        <Image x:Name="imageLogoHospitalSanJose"
+                  Source="logohospitalsanjose.png"
+                  VerticalOptions="Center"
+                  HeightRequest="100"  
+                  WidthRequest="100"></Image>
+
+        <Label x:Name="labelTexto" 
+                   Text="Hospital San Jose" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center"></Label>
+
+        <Image x:Name="imageQuienEsTuMedico"
+                   Source="quienestumedico.png"></Image>
+
+        <Button x:Name="IrAOtraPagina"
+                  Text="Especialiadad y doctores"
+                  BackgroundColor="LightSlateGray"
+                  VerticalOptions="Center"
+                  HorizontalOptions="Center"></Button>
+    </StackLayout>
+                    
+</ContentPage>

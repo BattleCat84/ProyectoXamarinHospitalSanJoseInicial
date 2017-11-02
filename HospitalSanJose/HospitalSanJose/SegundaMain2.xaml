@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HospitalSanJose.SegundaMain2"
+             Title="Registro">
+
+    <StackLayout Orientation="Vertical">
+
+        <Image Source="logohospitalsanjose.png" 
+                       x:Name="imageLogoHospitalSanJose"
+                       VerticalOptions="Center"
+                       HeightRequest="100"  
+                       WidthRequest="100"></Image>
+        
+        <Label x:Name="labelDaLaBienvenida" 
+                      Text="Bienvenidos al Hospital San Jose" 
+                      VerticalOptions="Center" 
+                      HorizontalOptions="Center"></Label>
+
+        <Label x:Name="labelTexto" 
+                      Text="Escriba su nombre" 
+                      VerticalOptions="Center" 
+                      HorizontalOptions="Center"></Label>
+
+        <Entry x:Name="entryTextoIntroducido"
+                      Text="inserta Texto" 
+                      VerticalOptions="Center"
+                      HorizontalOptions="Center"
+                      HeightRequest="200"></Entry>
+        
+         <Button x:Name="IrAOtraPagina"
+                       Text="Siguiente"
+                       BackgroundColor="LightSlateGray"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"></Button>
+
+    </StackLayout>
+  
+</ContentPage>
